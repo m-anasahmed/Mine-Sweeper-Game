@@ -91,7 +91,7 @@
 
 ---
 
-#### Summary
+#### Conclusion
 
 - The game uses a 2D array to represent the board.
 - Mines are randomly placed based on the selected difficulty.
