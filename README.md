@@ -92,5 +92,3 @@ Absolutely! Here's a presentation-style explanation of the Minesweeper game code
 - The game ends if a mine is revealed or all non-mine cells are opened.
 
 ---
-
-This presentation-style breakdown should give you a clear understanding of how the Minesweeper game code operates.
