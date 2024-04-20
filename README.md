@@ -80,6 +80,17 @@
 
 ---
 
+### Description
+
+-The Minesweeper game begins by prompting the user to select a difficulty level: Beginner, Intermediate, or Advanced. Based on the chosen level, the board's side length and the number of mines are determined. 
+-Two 2D arrays, `realBoard` and `myBoard`, are initialized to represent the actual game board and the player's view, respectively. Initially, all cells on both boards are set to `-`, indicating they are empty.
+-Mines are then randomly placed on the `realBoard` according to the selected difficulty level, and their positions are stored in the `mines` array. The main game loop (`playMinesweeper` function) continues until either a mine is opened or all non-mine cells are revealed (`movesLeft` becomes 0). 
+-During each iteration, the current state of `myBoard` is displayed using `printBoard`. The player selects a cell by entering its row and column coordinates. If it's the first move and the selected cell is a mine, the mine is relocated to ensure the player's first move is safe. 
+-For each empty cell selected, the number of adjacent mines is calculated and displayed on `myBoard` using `countAdjacentMines`. If a cell with a mine is opened, the game ends with a "You lost!" message, revealing all mine locations. Conversely, if all non-mine cells are opened, the game concludes with a "You won!" message. 
+-Additionally, the game offers a cheat mode (`cheatMinesweeper`) to view mine locations and a feature to replace a mine (`replaceMine`) to guarantee the player's first move safety.
+
+---
+
 #### Summary
 
 - The game uses a 2D array to represent the board.
