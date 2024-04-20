@@ -88,4 +88,3 @@
 - Players reveal cells to find non-mine areas.
 - The game ends if a mine is revealed or all non-mine cells are opened.
 
----
