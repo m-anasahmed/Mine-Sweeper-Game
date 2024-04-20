@@ -1,5 +1,4 @@
 # Mine-Sweeper-Game
----
 
 ### Minesweeper Game in C++
 
