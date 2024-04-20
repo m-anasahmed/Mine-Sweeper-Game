@@ -1,7 +1,4 @@
 # Mine-Sweeper-Game
-
-Absolutely! Here's a presentation-style explanation of the Minesweeper game code:
-
 ---
 
 ### Minesweeper Game in C++
