@@ -82,7 +82,6 @@
 
 ### Description
 
-- **Working of Game :**
 - The Minesweeper game begins by prompting the user to select a difficulty level: Beginner, Intermediate, or Advanced. Based on the chosen level, the board's side length and the number of mines are determined.
 - Two 2D arrays, `realBoard` and `myBoard`, are initialized to represent the actual game board and the player's view, respectively. Initially, all cells on both boards are set to `-`, indicating they are empty.
 - Mines are then randomly placed on the `realBoard` according to the selected difficulty level, and their positions are stored in the `mines` array. The main game loop (`playMinesweeper` function) continues until either a mine is opened or all non-mine cells are revealed (`movesLeft` becomes 0).
